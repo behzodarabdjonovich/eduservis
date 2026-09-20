@@ -1,0 +1,21 @@
+[debug] [2026-04-07T03:11:54.429Z] ----------------------------------------------------------------------
+[debug] [2026-04-07T03:11:54.430Z] Command:       /opt/homebrew/Cellar/node/25.8.1_1/bin/node /opt/homebrew/bin/firebase deploy --only hosting:eduservis-20cbe
+[debug] [2026-04-07T03:11:54.430Z] CLI Version:   15.13.0
+[debug] [2026-04-07T03:11:54.430Z] Platform:      darwin
+[debug] [2026-04-07T03:11:54.430Z] Node Version:  v25.8.1
+[debug] [2026-04-07T03:11:54.430Z] Time:          Tue Apr 07 2026 08:11:54 GMT+0500 (Uzbekistan Standard Time)
+[debug] [2026-04-07T03:11:54.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-07T03:11:55.245Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-07T03:11:55.245Z] > authorizing via signed-in user (behzodarabdjonovich@gmail.com)
+[debug] [2026-04-07T03:11:55.245Z] [iam] checking project eduservis-20cbe for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-04-07T03:11:55.246Z] Checked if tokens are valid: false, expires at: 1775532048057
+[debug] [2026-04-07T03:11:55.246Z] Checked if tokens are valid: false, expires at: 1775532048057
+[debug] [2026-04-07T03:11:55.246Z] > refreshing access token with scopes: []
+[debug] [2026-04-07T03:11:55.248Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-04-07T03:11:55.248Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-04-07T03:11:55.582Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-04-07T03:11:55.582Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-04-07T03:11:55.591Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/eduservis-20cbe:testIamPermissions [none]
+[debug] [2026-04-07T03:11:55.591Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/eduservis-20cbe:testIamPermissions  x-goog-user-project=eduservis-20cbe
+[debug] [2026-04-07T03:11:55.591Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/eduservis-20cbe:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

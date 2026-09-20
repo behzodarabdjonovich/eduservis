@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "eduservis-20cbe"
+  },
+  "targets": {
+    "eduservis-20cbe": {
+      "hosting": {
+        "eduservis-20cbe": [
+          "eduservis-20cbe"
+        ],
+        "manage-eduservis": [
+          "manage-eduservis"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
